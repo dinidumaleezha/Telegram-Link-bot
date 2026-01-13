@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-BASE_URL = "https://boommusic/"
+BASE_URL = "https://www.capcut.com//template-detail//"
 
 def check_link(url):
     try:
